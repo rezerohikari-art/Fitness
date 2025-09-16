@@ -1,0 +1,189 @@
+@media (max-width: 1199.98px) {
+    .welcome__span {
+        color: #000;
+    }
+    
+    .banner__right {
+        width: 470px;
+    }
+    
+    .plan__row,
+    .footer__row {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .footer__column {
+        margin: 0 15px 60px;
+    }
+    
+    .footer__down {
+        margin-top: 20px;
+    }
+    
+    .plan__column,
+    .expert__column {
+        margin: 0 15px 30px;
+        text-align: center;
+    }
+    
+    .py-80 {
+        padding: 80px 0 50px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse  {
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+    }
+    
+    .me-auto {
+        margin: 0 !important;
+    }
+    
+    .nav-item {
+        margin: 5px 0;
+    }
+    
+    .banner__right {
+        width: 355px;
+    }
+    
+    .header__title {
+        margin-top: 110px;
+    }
+    
+    .welcome {
+       padding: 480px 0 200px;
+       background-position: 85% 117%;
+    }
+    
+    .plan__down {
+        padding: 20px 25px;
+    }
+    
+    .plan__column {
+        max-width:295px ;
+    }
+    
+    .plan__img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header {
+        text-align: center;
+    }
+    
+    .navbar-collapse {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .navbar__regist {
+        margin-top: 30px;
+    }
+    
+    .welcome {
+        text-align: center;
+        background-position: center 92%;
+    }
+    
+    .welcome__text,
+    .welcome__subtitle-primary {
+        margin: 30px auto;
+        color: #000;
+    }
+    
+    .welcome__btn {
+        border: 2px solid #000;
+    }
+    
+    .banner__left {
+        display: none;
+    }
+    
+    .personal__span {
+        font-size: 56px;
+    }
+    
+    .info {
+        flex-direction: column;
+    }
+    
+    .info__right,
+    .info__left {
+        width: 100%;
+    }
+    
+    .footer {
+        padding-top: 30px;
+    }
+    
+    .footer__icon-box {
+        margin: 0 auto 40px;
+    }
+    
+    .footer__form {
+       text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header__title {
+        font-size: 48px;
+    }
+    
+    .banner__right {
+        width: 295px;
+    }
+    
+    .banner__input, 
+    .banner__select  {
+        width: 45%;
+    }
+    
+    .banner__title {
+        font-size: 28px;
+    }
+    
+    .banner__form {
+        margin-top: 35px;
+    }
+    
+    .welcome {
+        padding-bottom: 120px;
+    }
+    
+    .personal__span {
+        margin-top: 15px;
+    }
+    
+    .personal {
+        padding: 130px 15px 100px;
+    }
+    
+    .expert__img {
+        height: 375px;
+    }
+    
+    .expert__column {
+        margin: 0 0 30px;
+    }
+    
+    .info__subtext {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    
+    .footer__btn {
+        margin: 20px 0 0;
+    }
+    
+    .footer__img {
+        width: 83px;
+    }
+}
